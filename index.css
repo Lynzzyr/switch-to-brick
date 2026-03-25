@@ -1,7 +1,56 @@
 /* 
 Brandon Namgoong
 TEJ4M1
-2026-03-24
+2026-03-25
 Web Project
 */
 
+/* fonts */
+
+@font-face {
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    src: url("./fonts/SF-Pro-Display-Semibold.otf");
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    src: url("./fonts/SF-Pro-Text-Regular.otf");
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    src: url("./fonts/SF-Pro-Text-Semibold.otf");
+}
+
+/* type classes */
+
+h1 {
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    font-size: 64px;
+}
+
+h3 {
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    font-size: 28px;
+    color: gray;
+}
+
+p {
+    font-family: "SF Pro Text";
+    font-weight: 400;
+}
+
+b {
+    font-weight: 600;
+}
+
+/* body */
+
+body {
+    margin: 0;
+}
