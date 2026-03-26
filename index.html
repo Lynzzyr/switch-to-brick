@@ -30,14 +30,18 @@ Web Project
                     <h3>Trade In</h3>
                     <h2 class="light">You can get zilch for<br>your Android<br>smartphone.</h2>
                 </div>
-                <img src="./images/trade-in.jpg" alt="Android and brick together">
+                <div class="bento-box-image">
+                    <img src="./images/trade-in.jpg" alt="Android and brick together">
+                </div>
             </div>
             <div class="bento-box-light">
                 <div class="bento-box-text">
                     <h3>Support</h3>
                     <h2 class="light">Want some help?<br>Just call, contract, or contract.</h2>
                 </div>
-                <img src="./images/bob.jpg" alt="Contractor">
+                <div class="bento-box-image">
+                    <img src="./images/bob.jpg" alt="Contractor">
+                </div>
             </div>
         </div>
         <div class="bento-box-light">
@@ -45,9 +49,11 @@ Web Project
                 <h3>Move to brick</h3>
                 <h2 class="light">Transfer your photos and<br>contacts in all the steps.</h2>
             </div>
-            <div style="width: max-content;"> <!-- custom div to meet floating element requirement -->
-                <img src="./images/transfer-android.jpg" style="float: left;">
-                <img src="./images/transfer-brick.jpg" style="float: left">
+            <div style="display: flex; justify-content: center;"> <!-- custom divs to meet floating element requirement -->
+                <div style="width: max-content;">
+                    <img src="./images/transfer-android.jpg" style="float: left;">
+                    <img src="./images/transfer-brick.jpg" style="float: left">
+                </div>
             </div>
         </div>
         <div class="bento-box-light-wide">
@@ -59,7 +65,9 @@ Web Project
         </div>
         <div class="bento-multi-container">
             <div class="bento-box-dark">
-                <img src="./images/corner.png" alt="Brick corner" style="scale: 3;">
+                <div class="bento-box-image">
+                    <img src="./images/corner.png"style="scale: 3;">
+                </div>
                 <div class="bento-box-text">
                     <h3>Durability</h3>
                     <h2 class="dark">If you want a paperweight<br>that will last, this is it.</h2>
@@ -74,6 +82,15 @@ Web Project
                 <div class="bento-box-text">
                     <h3>Battery not included.</h3>
                 </div>
+            </div>
+        </div>
+        <div class="bento-box-dark-wide">
+            <div class="bento-box-text">
+                <h3>Customize your brick</h3>
+                <h2 class="dark">Make it unique.<br>Red or red or even red.</h2>
+            </div>
+            <div class="bento-box-image-wide">
+                <img src="./images/personalize.png" alt="3 bricks in perspective">
             </div>
         </div>
     </div>

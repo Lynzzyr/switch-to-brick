@@ -126,7 +126,6 @@ b {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 
     border-radius: 24px;
     overflow: hidden;
@@ -140,7 +139,6 @@ b {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 
     border-radius: 24px;
     overflow: hidden;
@@ -161,7 +159,7 @@ b {
     overflow: hidden;
 }
 
-.bento-box-light-wide {
+.bento-box-dark-wide {
     background-color: black;
     height: 550px;
 
@@ -177,6 +175,19 @@ b {
 }
 
 .bento-box-text {
-    align-items: center;
     text-align: center;
+}
+
+.bento-box-image {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.bento-box-image-wide {
+    height: 100%;
+
+    display: flex;
+    align-items: flex-end;
 }
