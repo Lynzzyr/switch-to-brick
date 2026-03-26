@@ -1,9 +1,13 @@
 /* 
 Brandon Namgoong
 TEJ4M1
-2026-03-25
+2026-03-26
 Web Project
 */
+
+body {
+    margin: 0;
+}
 
 /* fonts */
 
@@ -31,26 +35,104 @@ h1 {
     font-family: "SF Pro Display";
     font-weight: 600;
     font-size: 64px;
+
+    color: black;
+}
+
+h2.light {
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    font-size: 40px;
+
+    color: black;
+}
+
+h2.dark {
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    font-size: 40px;
+
+    color: white;
 }
 
 h3 {
     font-family: "SF Pro Display";
     font-weight: 600;
     font-size: 28px;
+
     color: gray;
 }
 
 p {
     font-family: "SF Pro Text";
     font-weight: 400;
+
+    color: black;
 }
 
 b {
     font-weight: 600;
+
+    color: black;
 }
 
-/* body */
+/* divs */
 
-body {
-    margin: 0;
+.hero-parent {
+    background-color: white;
+    height: 720px;
+
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 48px;
+}
+
+.hero-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-image {
+    display: flex;
+    align-items: stretch;
+}
+
+.bento-parent {
+    background-color: whitesmoke;
+
+    padding-left: 256px;
+    padding-right: 256px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 24px;
+}
+
+.bento-multi-container {
+    display: flex;
+    gap: 24px;
+}
+
+.bento-box-light {
+    background-color: white;
+    width: 100%;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.bento-box-text {
+    align-items: center;
+    text-align: center;
+}
+
+.bento-image {
+    min-height: 0;
+    object-fit: cover;
 }
