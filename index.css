@@ -85,7 +85,7 @@ b {
     display: flex;
     align-items: stretch;
     justify-content: center;
-    gap: 48px;
+    gap: 64px;
 }
 
 .hero-text {
@@ -102,10 +102,14 @@ b {
 .bento-parent {
     background-color: whitesmoke;
 
+    display: flex;
+    flex-direction: column;
+
     padding-left: 256px;
     padding-right: 256px;
     padding-top: 24px;
     padding-bottom: 24px;
+    
     gap: 24px;
 }
 
@@ -134,5 +138,5 @@ b {
 
 .bento-image {
     min-height: 0;
-    object-fit: cover;
+    object-fit: contain;
 }
