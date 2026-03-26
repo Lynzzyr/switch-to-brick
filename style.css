@@ -1,0 +1,230 @@
+/* 
+Brandon Namgoong
+TEJ4M1
+2026-03-26
+Web Project
+*/
+
+body {
+    margin: 0;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    src: url("./fonts/SF-Pro-Display-Semibold.otf");
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    src: url("./fonts/SF-Pro-Text-Regular.otf");
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    src: url("./fonts/SF-Pro-Text-Medium.otf");
+}
+
+/* type classes */
+
+h1 {
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    font-size: 64px;
+
+    color: black;
+}
+
+h2.light {
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    font-size: 40px;
+
+    color: black;
+}
+
+h2.dark {
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    font-size: 40px;
+
+    color: white;
+}
+
+h3 {
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    font-size: 28px;
+
+    color: gray;
+}
+
+/* divs */
+
+.hero-parent {
+    background-color: white;
+    height: 720px;
+
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 64px;
+}
+
+.hero-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-image {
+    display: flex;
+    align-items: stretch;
+}
+
+.bento-parent {
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 20px;
+    padding-bottom: 96px;
+    
+    gap: 20px;
+}
+
+.bento-container {
+    width: 1400px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.bento-box-light {
+    background-color: white;
+    width: 100%;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.bento-box-dark {
+    background-color: black;
+    width: 100%;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.bento-box-light-hor {
+    background-color: white;
+    width: 100%;
+    height: 550px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 36px;
+    padding-right: 36px;
+
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.bento-box-dark-hor {
+    background-color: black;
+    width: 100%;
+    height: 550px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 36px;
+    padding-right: 36px;
+
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.bento-box-text {
+    text-align: center;
+}
+
+.bento-box-image {
+    display: flex;
+    justify-content: center;
+}
+
+.bento-box-image-hor {
+    height: 100%;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.compare-parent {
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    padding-bottom: 96px;
+}
+
+/* table */
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    width: 256px;
+
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    font-size: 24px;
+}
+
+tr {
+    border-top: 24px solid transparent;
+    border-bottom: 24px solid transparent;
+}
+
+td.body {
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 17px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+td.caption {
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    font-size: 14px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+}
